@@ -1,0 +1,19 @@
+.content-a-propos{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 20px;
+    
+}
+.content-a-propos + div {
+    text-align: center;
+  }
+.content-a-propos h2 {
+    margin-top: 30px;
+  }
+.st-service , ul{
+    margin-top: 20px;
+}
+.main-a-propos{
+    width: 50%;
+    margin: auto;
+}
