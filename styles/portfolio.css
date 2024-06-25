@@ -45,6 +45,7 @@
 .lien-conteneur-photo:hover .photo-hover {
     display: flex;
   }
+    /* responsive */
   @media screen and (max-width:996px) {
     .grid-paysage {
         grid-template-columns: 1fr;
