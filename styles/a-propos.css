@@ -1,7 +1,10 @@
 .content-a-propos{
-    border-right: 1px solid #8e86b5;
-    border-bottom: 1px solid #8e86b5;
-    padding: 20px;
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
     
 }
 .content-a-propos + div {
@@ -10,11 +13,10 @@
 .content-a-propos h2 {
     margin-top: 30px;
   }
-.st-service , ul{
-    margin-top: 20px;
-}
+  .content-a-propos ul {
+    margin-top: 30px;
+  }
 .main-a-propos{
-    width: 50%;
     margin: auto;
 }
 
@@ -25,16 +27,16 @@ section.Tarifs h2{
 }
 table {
     color: white;
+    text-align: center;
     width: 100%;
     border-collapse: collapse;
-    /* margin: auto; */
   }
    th {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 120px;
+    padding-right: 120px;
     border: 1px solid #a5b4fc;
   }
   td{
@@ -49,4 +51,8 @@ table {
     flex-direction: row;
     justify-content: center;
   }
-
+@media screen and (max-width:996px) {
+  section.Tarifs{
+    display: none;
+  }
+}

@@ -40,6 +40,7 @@ header, footer{
     border-radius: 50px;
     padding: 15px;
     margin-top: 35px;
+    text-align: center;
     
 }
 
@@ -77,3 +78,24 @@ footer a{
     margin-left: 20px;
   }
 
+@media screen and (max-width:1200px) {
+   h1{
+    font-size: 2em;
+   }
+}
+@media screen and (max-width: 996px) {
+    header nav {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    header nav div{
+        display: contents;
+    }
+    header nav div a{
+        margin-top: 15px;
+    }
+    section{
+        padding: 80px;
+    }
+}

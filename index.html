@@ -47,14 +47,10 @@
                 capturer l’essence de chaque instant.
           </p>
           <div>
-            <a href="portfolio.html" class="cta">Un projet ? Ecrivez-moi</a>
+            <a href="#contact" class="cta">Un projet ? Ecrivez-moi</a>
           </div>
         </div>
-        <img
-            src="img/robbie-lens.png"
-            alt="robbie-lens"
-            title="jolie n'est ce pas!"
-          />
+        <img src="img/robbie-lens.png" alt="robbie-lens" title="jolie n'est ce pas!">
       </section>
 
       <section class="acceuil-photos">
@@ -72,9 +68,26 @@
       <div>
         <a href="portfolio.html" class="cta">Voir mon portfolio</a>
       </div>
-        
       </section>
 
+      <section id="contact" class="sect-contact">
+        <h2>Parlons de votre projet</h2>
+        <form action="" method="get">
+          <div class="content-formulaire">
+            <div class="form-nom">
+              <label for="nom">Nom</label>
+              <input type="text" name="nom" id="nom" placeholder="nom" required maxlength="25" autofocus>
+            </div>
+            <div class="form-email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="email" required>
+            </div>
+          </div>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="10">Ecrivez...</textarea>
+          <input type="submit" value="ENVOYER" class="cta">
+        </form>
+      </section>
     </main>
 
     <footer>      

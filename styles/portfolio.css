@@ -10,14 +10,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px;
-    grid-gap: 15px;
+    grid-gap: 25px;
     margin-bottom: 50px;
 }
 .grid-portrait{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px ;
-    grid-gap: 15px;
+    grid-gap: 25px;
 }
 .grid-paysage img ,
 .grid-portrait img{
@@ -45,3 +45,14 @@
 .lien-conteneur-photo:hover .photo-hover {
     display: flex;
   }
+  @media screen and (max-width:996px) {
+    .grid-paysage {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+    
+      .grid-portrait {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+}
